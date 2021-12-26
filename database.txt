@@ -1,0 +1,20 @@
+//Create tables for all segments //
+
+1.Creating user table
+db.users.insertMany([{}])
+
+2.Creating user table
+db.codekata.insertMany([{}])
+
+3.Create Topics table
+db.topics.insertMany([{}])
+
+4.Create Tasks table
+db.tasks.insertMany([{}])
+
+5.Create Company Drives
+db.company_drives.insertMany([{}])
+
+6.Create Mentors
+db.Mentors.insertMany([{}])
+
