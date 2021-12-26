@@ -5,7 +5,7 @@
 ## Create Codekata Data
 ![Screenshot (88)](https://user-images.githubusercontent.com/91141164/147404506-456e04b1-1319-4d7d-8b67-029dff4aa455.png)
 ## Insert topics Data
-
+![Screenshot (89)](https://user-images.githubusercontent.com/91141164/147404547-c2ef3b40-8d55-4fbd-b5ad-be42d013bea4.png)
 ## Insert Task Data
 
 ## Insert Mentors Data
