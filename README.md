@@ -14,6 +14,7 @@
 ![Screenshot (92)](https://user-images.githubusercontent.com/91141164/147404775-e556cbab-7bec-435d-8dc6-3b42b97b4ee4.png)
 
 ## Find all the mentors with who has the mentee's count more than 15
+![Screenshot (93)](https://user-images.githubusercontent.com/91141164/147404894-050fe480-c535-4ef1-bf25-cce51b618070.png)
 
 ## Find all the company drives and students who are appeared for the placement.
 
