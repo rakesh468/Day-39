@@ -16,9 +16,3 @@
 ## Find all the mentors with who has the mentee's count more than 15
 ![Screenshot (93)](https://user-images.githubusercontent.com/91141164/147404894-050fe480-c535-4ef1-bf25-cce51b618070.png)
 
-## Find all the company drives and students who are appeared for the placement.
-
-
-## Find the number of problems solved by the user in codekata
-
-## Find the number of users who are absent and task is not submitted  between 15 oct-2020 and 31-oct-2020
