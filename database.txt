@@ -18,3 +18,11 @@ db.company_drives.insertMany([{}])
 6.Create Mentors
 db.Mentors.insertMany([{}])
 
+7.Find all the company drives which appeared between 15 oct-2020 and 31-oct-2020
+db.company_drive.find({ date: { $gt: "10/15/2021", $lt: "10/30/2021" } });
+
+8.Find all the company drives and students who are appeared for the placement.
+db.attendance.aggregate([ { $match: { "attendance": "present" } }, { $lookup: { from: "users", localField: "student_id", foreignField: "studentd_id", as: "student_id" } }, { $lookup: { from: "company_drive", localField: "company-1", foreignField: "company_id", as: "company-1" } }, { $lookup: { from: "company_drive", localField: "company-2", foreignField: "company_id", as: "company-2" } } ]).pretty()
+
+9.Find the number of problems solved by the user in codekata
+db.codekata.aggregate([ { $lookup: { from: "users", localField: "user_id", foreignField: "studentd_id", as: "student_info" } } ])
