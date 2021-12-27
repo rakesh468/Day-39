@@ -11,6 +11,8 @@
 ## Insert Mentors Data
 ![Screenshot (91)](https://user-images.githubusercontent.com/91141164/147404618-e43e0d5e-c3fd-4e30-a3b6-4013cc4b81ad.png)
 ## Find all the topics and tasks which are thought in the month of October
+db.tasks.find({ month: { $eq: "October" } }).toArray() 
+db.topics.find({ month: { $eq: "October" } }).toArray()
 ![Screenshot (92)](https://user-images.githubusercontent.com/91141164/147404775-e556cbab-7bec-435d-8dc6-3b42b97b4ee4.png)
 
 ## Find all the mentors with who has the mentee's count more than 15
